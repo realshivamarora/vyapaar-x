@@ -1,0 +1,52 @@
+/* src/components/FetchExpenses.css */
+
+.fetch-expenses-container {
+    padding: 20px;
+    text-align: center; /* Center align the text */
+}
+
+h2 {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 24px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.fetch-btn, .search-btn {
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #1c193e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+}
+
+.category-dropdown {
+    margin-right: 5px;
+    padding: 8px;
+}
+
+.expenses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.expenses-table th, .expenses-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.expenses-table th {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,167 @@
+.billing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .input-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .country-code {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 180px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1c193e;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1c193e;
+  }
+  
+  .bill-box {
+    width: 1400px; /* Wider width for a paper-like format */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  .bill-box h3 {
+    text-align: center;
+    font-size: 1.8em;
+    margin: 0;
+  }
+  
+  .address {
+    text-align: center;
+    font-size: 0.9em;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .bill-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    font-size: 1.1em;
+  }
+  
+  .bill-details .top-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  .horizontal-line {
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+  }
+  
+  .centered-mobile {
+    text-align: center;
+  }
+  
+  .billing-inputs {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .billing-inputs input,
+  .billing-inputs button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .item-table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .item-table th,
+  .item-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .item-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .billing-options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .billing-options select,
+  .billing-options button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .billing-inputs {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .item-table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .item-table th,
+  .item-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .item-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .totals {
+    margin-top: 15px;
+    font-size: 1.1em;
+  }
+  
+  .totals p {
+    margin: 5px 0;
+  }
+  
+  .totals strong {
+    font-size: 1.2em;
+  }
+  

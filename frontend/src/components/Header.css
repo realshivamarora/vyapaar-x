@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    height: 100px; /* Decreased height */
+    background-color: #1c193e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px; /* Keeps left padding */
+}
+
+.firm-name {
+    color: white; /* Adjust text color as needed */
+    font-family: 'Inria Sans', sans-serif;
+    margin: 0; /* Remove default margin */
+}
+
+.powered-by {
+    color: white; /* Adjust text color as needed */
+    font-family: 'Inria Sans', sans-serif;
+    font-size: smaller; /* Smaller text */
+    margin: 0; /* Remove default margin */
+    padding-top: 10px;
+}

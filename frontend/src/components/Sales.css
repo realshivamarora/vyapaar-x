@@ -1,0 +1,9 @@
+.sales-section {
+    padding: 20px; /* Add padding for spacing */
+    text-align: left; /* Align text to the left */
+}
+
+h2 {
+    font-family: 'Inria Sans', sans-serif; /* Use the specified font */
+    font-size: 24px; /* Adjust font size as needed */
+}

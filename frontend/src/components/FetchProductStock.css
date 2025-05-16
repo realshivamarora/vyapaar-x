@@ -1,0 +1,50 @@
+/* src/components/FetchProductStock.css */
+
+.fetch-product-stock-container {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 24px;
+}
+
+.input-section {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #1c193e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+.product-stock-table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.product-stock-table th, .product-stock-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-stock-table th {
+    background-color: #f2f2f2;
+}

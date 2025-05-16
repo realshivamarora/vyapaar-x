@@ -1,0 +1,91 @@
+/* FetchCustomers.css */
+
+.customer-table-container {
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .customer-table-container h2 {
+    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  /* Search bar styling */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #1c193e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #1c193e;
+  }
+  
+  /* Fetch All Customers button styling */
+  .fetch-button {
+    display: block;
+    margin: 10px auto 20px;
+    padding: 10px 20px;
+    background-color: #1c193e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .fetch-button:hover {
+    background-color: #1c193e;
+  }
+  
+  /* Table styling */
+  .customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Inria Sans', sans-serif;
+  }
+  
+  .customer-table th, .customer-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .customer-table th {
+    background-color: #1c193e;
+    color: white;
+  }
+  
+  .customer-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .customer-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .customer-table td {
+    padding: 10px;
+  }
+  

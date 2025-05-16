@@ -1,0 +1,46 @@
+/* src/components/FetchSales.css */
+
+.fetch-sales-container {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 24px;
+}
+
+.button-container, .date-picker-section {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.fetch-btn {
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #1c193e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="date"] {
+    margin: 0 10px;
+    padding: 8px;
+}
+
+.sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.sales-table th, .sales-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.sales-table th {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,40 @@
+/* DealersList.css */
+
+.dealers-list-section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .dealers-list-section h2 {
+    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .dealers-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .dealers-table th, .dealers-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .dealers-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .dealers-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dealers-table td {
+    font-family: 'Inria Sans', sans-serif;
+  }
+  

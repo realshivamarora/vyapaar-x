@@ -1,0 +1,88 @@
+.navbar {
+    background-color: #f8f9fa; /* Light greyish background */
+    padding: 10px 30px; /* Adjusted padding for more space */
+    border-bottom: 1px solid #ddd; /* Optional border for a clean separation */
+    display: flex;
+    justify-content: flex-start; /* Align items closer */
+    align-items: center;
+    transition: background-color 0.4s ease; /* Smooth background transition */
+}
+
+.navbar .nav-link {
+    color: #333; /* Dark grey for better contrast */
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 12px; /* Closer spacing between options */
+    margin-right: 8px; /* Reduce space between links */
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth hover effects */
+}
+
+.navbar .nav-link:hover {
+    background-color: #e2e6ea; /* Subtle grey hover effect */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+    background-color: #d1d5d9; /* Active or focused background color */
+    color: #000;
+}
+
+.vertical-divider {
+    width: 1px;
+    height: 25px; /* Slightly smaller for compact look */
+    background-color: #ccc; /* Softer divider color */
+    margin: 0 5px; /* Closer spacing between items */
+}
+
+.products-button {
+    background-color: #e9ecef; /* Light background for products button */
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Same smooth hover effects */
+}
+
+.products-button:hover {
+    background-color: #d6d8db; /* Hover effect */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Helpline Icons */
+.helpline-icons {
+    display: flex;
+    align-items: center; /* Center the icons vertically */
+    margin-left: auto; /* Push icons to the right */
+}
+
+.icon-link {
+    color: #333; /* Match the color of nav-link */
+    font-size: 18px; /* Size of the icons */
+    margin-left: 15px; /* Space between icons */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.icon-link:hover {
+    transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .vertical-divider {
+        display: none; /* Remove dividers on small screens */
+    }
+
+    .nav-link {
+        margin-right: 0; /* No margin between links on mobile */
+    }
+
+    .helpline-icons {
+        margin-top: 10px; /* Add space above icons on mobile */
+    }
+}
